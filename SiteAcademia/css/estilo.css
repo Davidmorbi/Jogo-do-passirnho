@@ -1,0 +1,163 @@
+*{ /* Config para a página toda*/
+	margin: 0px; /* margem externa da página zerada */
+	padding: 0px; /*margem interna da página zerada */
+}
+body{
+	font-family: "Calibri", Helvetica, Arial
+}
+header{
+	width: 100%; /* Tamanho do header considerando a config responsiva */
+	height: 70px;
+	background-color: #e28f2e;
+	position: fixed;
+}
+/* ####### MENU ####### */
+
+nav{ /* Estilo da barra de navegação */
+	height: 70px
+	font-size: 19px; /* Tamanho da fonte */
+}
+nav ul{/* Estilo da lista*/
+	list-style-type: none
+} 
+nav li{
+	float: left; /* Configurar o menu para horizontal*/
+	margin-left: 5px;
+	padding: 9px 10px; /* margem interna cima/baixo 5px e dir/esq 10px*/
+	color: white; /* cor das palavras do menu*/
+	font-weight: bold; /* fonte em negrito */
+	line-height: 3.2;
+}
+nav ul .BOTAO:hover{ /* config mouse sobre */
+	background-color: rgba(255,255,255,0.2);
+}
+.logo{ /*config logo*/
+	float: left;
+	margin-left: 15px;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-bottom: 25px;
+}
+
+/* ###### CONTEUDO HOME PAGE ###### */
+
+main{ /* estilo conteudo principal */
+	width: 1000px;
+	height:600px;
+	margin: 0 auto; /* margem do conteudo */
+}
+#banner_img{
+	width: 1000px;
+	height: 300px;
+	float: left;
+	margin-top: 70px;
+}
+.fotoshome{
+	float: left;
+	width: 50%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.conteudo{
+	float: left;
+}
+article{
+	margin-bottom: 10px;
+	text-align: justify; /* Formatação do texto justificada */
+}
+
+/* ###### CONTEUDO RODAPÉ ###### */
+
+footer{
+	background-color: #e28f2e;
+	color: white;
+	text-align: center;
+	clear: both; /* tag para evitar que o rodapé pegue o estilo das outras sessões*/
+	padding: 30px 0;
+}
+
+/* ###### SOBRE ###### */
+
+.fotossobre{
+	float: left;
+	width: 20%;
+	height: 160px;
+}
+.asobre{
+	float: left;
+	width:80%;
+	height: 140px; 
+	padding-top: 20px;
+}
+
+/* ###### CONTATO ###### */
+
+#mapa{
+	float: left;
+	margin-top: 70px;
+}
+#info{
+	width: 370px;
+	float: left;
+}
+#formulario{
+	width: 600px;
+	float: right;
+}
+#formulario label{
+	font-size: 18px;
+}
+#formulario div input{
+	background-color: #fae5cc;
+	border:1px solid: #f2c085;
+	width: 605px;
+	height: 28px;
+	font-size: 15px;
+}
+#formulario div textarea{
+	background-color: #fae5cc;
+	border:1px solid: #f2c085;
+	width: 600px;
+	height: 60px;
+	font-size: 15px;
+	resize: none;
+}
+#formulario .BOTAO{
+	width: 80px;
+	height: 30px;
+	font-size: 16px;
+	color: white;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	float: right;
+	cursor: pointer;
+}
+#ENVIAR{
+	background-color: darkgreen;
+	border:1px solid #8bac7f;
+}
+#LIMPAR{
+	background-color: red;
+	border:1px solid #b89898;
+}
+#formulario h2{
+	font-size: 22px;
+	color: orange;
+	text-align: center;
+	margin: 40px 0;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/* ###### GALERIA ###### */
+
+.galeria{
+	margin: 10px;
+	text-align: center;
+}
+.galeria img{
+	padding: 20px;
+	padding-left: 30px;
+}
